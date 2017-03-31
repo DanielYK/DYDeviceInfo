@@ -7,9 +7,8 @@
 //
 
 #import "DYDeviceInfo.h"
+//获取idfa
 #import <AdSupport/ASIdentifierManager.h>
-#import "sys/utsname.h"
-
 //获取mac
 #include <sys/sysctl.h>
 #include <sys/socket.h>

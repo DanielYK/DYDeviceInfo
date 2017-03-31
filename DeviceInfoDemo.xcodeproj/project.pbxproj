@@ -18,7 +18,6 @@
 		6D611F361E83B43300166508 /* DeviceInfoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D611F351E83B43300166508 /* DeviceInfoDemoTests.m */; };
 		6D611F411E83B43300166508 /* DeviceInfoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D611F401E83B43300166508 /* DeviceInfoDemoUITests.m */; };
 		6D76352B1E8E110A00E967B6 /* DYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D76352A1E8E110A00E967B6 /* DYDeviceInfo.m */; };
-		6D88ED341E8A5ED000F3A65C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6DE1051E84DD7D00AB2F55 /* CoreTelephony.framework */; };
 		6D9D92541E8A832D0054F3F8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9D92531E8A832D0054F3F8 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,10 +57,8 @@
 		6D611F3C1E83B43300166508 /* DeviceInfoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceInfoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D611F401E83B43300166508 /* DeviceInfoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoDemoUITests.m; sourceTree = "<group>"; };
 		6D611F421E83B43300166508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D6DE1051E84DD7D00AB2F55 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		6D7635291E8E110A00E967B6 /* DYDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDeviceInfo.h; sourceTree = "<group>"; };
 		6D76352A1E8E110A00E967B6 /* DYDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDeviceInfo.m; sourceTree = "<group>"; };
-		6D88ED2D1E8A4FFF00F3A65C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		6D9D92531E8A832D0054F3F8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -71,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9D92541E8A832D0054F3F8 /* CoreFoundation.framework in Frameworks */,
-				6D88ED341E8A5ED000F3A65C /* CoreTelephony.framework in Frameworks */,
 				6D20DF361E83D62600A4D97D /* UIKit.framework in Frameworks */,
 				6D20DF341E83D61D00A4D97D /* AdSupport.framework in Frameworks */,
 			);
@@ -98,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				6D9D92531E8A832D0054F3F8 /* CoreFoundation.framework */,
-				6D88ED2D1E8A4FFF00F3A65C /* Messages.framework */,
-				6D6DE1051E84DD7D00AB2F55 /* CoreTelephony.framework */,
 				6D20DF351E83D62600A4D97D /* UIKit.framework */,
 				6D20DF331E83D61D00A4D97D /* AdSupport.framework */,
 			);
