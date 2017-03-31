@@ -8,7 +8,7 @@ DYDeviceInfo
  
  * 效果图
  
-  ![image](https://github.com/DanielYK/AdAlertView/blob/master/adAlert.gif)
+  ![image](https://github.com/DanielYK/DYDeviceInfo/blob/master/device.png)
 
 
  * 对应文件
@@ -21,7 +21,6 @@ NSString *idfvStr = [DYDeviceInfo dy_getDeviceIDFV];
 
 * 导入类库说明
 <pre><code>
-
 framework：
 AdSupport ：为了获取idfa
 导入头文件：
