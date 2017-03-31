@@ -25,12 +25,12 @@ framework：
 AdSupport ：为了获取idfa
 导入头文件：
 //获取idfa
-#import <AdSupport/ASIdentifierManager.h>
+//#import <AdSupport/ASIdentifierManager.h>
 //获取mac
-#include <sys/sysctl.h>
-#include <sys/socket.h>
-#include <net/if.h>
-#include <net/if_dl.h>
+//#include <sys/sysctl.h>
+//#include <sys/socket.h>
+//#include <net/if.h>
+//#include <net/if_dl.h>
 </code></pre>
 
  - 使用过程中有问题请加QQ或发邮件:584379066 备注：Git DeviceInfo
